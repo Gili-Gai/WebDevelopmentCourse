@@ -1,0 +1,45 @@
+body{
+    background-color: #dfcfab;
+    
+}
+article {
+    direction: rtl;
+    font-family: 'Varela Round';
+    color:#795c09;
+    border:solid 2px #795c09;
+    text-align:center;
+
+   
+
+}
+h1{
+    font-size:60px;
+    color:#403D33
+    }
+    
+
+h2{
+     font-size:40px;
+    color:#403D33;
+}
+h3{
+     font-size:40px;
+    color:#403D33;
+}
+h4{
+    font-size:40px;
+    color:#403D33;
+}
+h5{
+    font-size:20px;
+    color:#403D33;
+    padding-bottom:10px;
+    padding-top:5px;
+}
+p5{
+    font-size:20px;
+    padding-bottom:10px;
+    padding-top:5px;
+    
+}
+
