@@ -1,12 +1,12 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>Task3</Name>
+    <Name>Task3New1</Name>
     <Description>&lt;No description available&gt;</Description>
     <ProjectType>Web</ProjectType>
     <ProjectSubType>CSharp</ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Task3</DefaultName>
+    <DefaultName>Task3New1</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
@@ -16,7 +16,14 @@
     <Project TargetFileName="ProjectName.webproj" File="ProjectName.webproj" ReplaceParameters="true">
       <Folder Name="images" TargetFolderName="images">
         <ProjectItem ReplaceParameters="false" TargetFileName="DSCF0415.JPG">DSCF0415.JPG</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="facebook_logos_PNG19750.png">facebook_logos_PNG19750.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="logo_he.png">logo_he.png</ProjectItem>
       </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="‏‏index-contact.html">vstg0001.html</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="‏‏index-hobbies.html">vstg0002.html</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="‏‏index-me.html">vstg0003.html</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="‏‏index-study.html">vstg0004.html</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="‏‏index-work.html">vstg0005.html</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="index.html">index.html</ProjectItem>
       <Folder Name="jScripts" TargetFolderName="jScripts">
         <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.12.0.min.js">jquery-1.12.0.min.js</ProjectItem>
