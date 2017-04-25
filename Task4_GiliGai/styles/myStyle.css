@@ -1,0 +1,72 @@
+body {
+    direction: rtl;
+    font-family: 'Varela Round';
+    background-repeat: no-repeat;
+    background-color: #10b0ef;
+    background-image: url('../images/97348-OKSMH9-759.jpg');
+    width:100px;
+
+}
+#container{ 
+    text-align: center; 
+    margin-right:850px; 
+    width:960px;
+    height:960px; 
+}
+
+header {
+    font-size:90px;
+    background-position:center;
+    text-align:center;
+}
+
+#info{
+    font-size:50px;
+    color:#0679b6;
+    background-position:center;
+    background-color:#ffffff;
+    border-radius: 30px;
+    opacity:0.9;
+    text-align:center;
+}
+form {
+    padding: 40px;
+    text-align: right;
+    font-size: 40px;
+    color: white;
+    margin-top:200px;
+}
+ input[type=text], select {
+    padding: 10px 5px;
+    margin:10px;
+    display: inline-block;
+    border: 2px solid #3e3838;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color:white;
+    text-align:center;
+}
+ input[type=text] {
+    border: 2px solid #50d5d8;
+    border-radius: 4px;
+}
+input[type=submit] {
+    width: 20%;
+    background-color: #a19a9a;
+    color: white;
+    padding: 15px 15px;
+    margin: 10px;
+    border: #3e3838 solid 2px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family:'Varela Round';
+    font-size:20px;
+}
+input[type=submit]:hover {
+    background-color: #50d5d8;
+    color:#000000;
+}
+
+
+
+
