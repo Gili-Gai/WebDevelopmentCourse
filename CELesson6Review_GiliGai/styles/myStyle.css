@@ -1,0 +1,335 @@
+body {
+    direction: rtl;
+}
+
+#container {
+    width: 750px;
+    height: 750px;
+}
+
+div {
+    margin: 10px 5px;
+    clear: both;
+}
+
+#recpie li {
+    margin-right: 20px;
+}
+
+/*חלק ב' - CSS */
+
+/*חלק ב' - תרגיל 1 - מזלות*/
+#zodiac {
+    height: 150px;
+    width: 150px;
+    background-position: -1335px;
+    background-repeat: no-repeat;
+    background-image: url('../images/Zodiac.jpg');
+    background-size: auto;
+}
+
+/*חלק ב' - תרגיל 2 - aside*/
+#aside {
+    border: solid #000000 1px;
+    width: 350px;
+    height: 200px;
+    text-align: justify;
+    padding: 30px 30px 20px 20px;
+    background-image: url('../images/decorative.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 350px;
+}
+
+    #aside p {
+        padding: 20px 20px 20px 20px;
+        padding-bottom: 5px;
+    }
+
+        #aside p::first-letter {
+            font-size: 200%;
+            color: #a021c3;
+        }
+
+    #aside h1 {
+        background-color: #00ff21;
+        width: 350px;
+        height: 30px;
+        text-align: center;
+    }
+
+
+/*חלק ב' - תרגיל 3 - אינסטגרם*/
+#instegram {
+    background-image: url('../images/instegram.png');
+    background-position: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+    #instegram:hover {
+        background-image: url('../images/instegram.png');
+        background-position: 400px;
+        width: 100px;
+        height: 100px;
+    }
+
+/*חלק ב' - תרגיל 4 - זברה*/
+#zebra {
+    border: solid 10px #0d640d;
+    width: 150px;
+    height: 300px;
+    background-color: #a021c3;
+    color: white;
+}
+
+    #zebra li:nth-child(Odd) {
+        font-size: 25pt;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+
+    #zebra li:nth-child(Even) {
+        font-size: 15pt;
+        padding-right: 40px;
+        padding-top: 10px;
+    }
+
+    #zebra:hover li:nth-child(Odd) {
+        font-size: 15pt;
+        padding-right: 40px;
+        padding-top: 10px;
+    }
+
+    #zebra:hover li:nth-child(Even) {
+        font-size: 25pt;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+
+
+    #zebra:hover {
+        border: solid 10px #a021c3;
+        width: 150px;
+        height: 300px;
+        background-color: #0d640d;
+        color: white;
+    }
+
+
+
+/*חלק ב' - תרגיל 5 - זומבי*/
+#zombie {
+    background-image: url(../images/Zombie.png);
+    background-position: -221px;
+    width: 250px;
+    height: 355px;
+    background-repeat: no-repeat;
+    background-size: 722px;
+}
+
+    #zombie:hover {
+        background-image: url(../images/Zombie.png);
+        background-position: -480px;
+        width: 250px;
+        height: 355px;
+        background-repeat: no-repeat;
+        background-size: 722px;
+    }
+
+
+    #zombie:active {
+        background-image: url(../images/Zombie.png);
+        background-position: 30px;
+        width: 250px;
+        height: 355px;
+        background-repeat: no-repeat;
+        background-size: 720px;
+    }
+
+
+/*חלק ג' - HTML+CSS */
+
+/*חלק ג' - תרגיל 1 - תגים סמנטיים*/
+#semantic {
+    background-image: url(../images/frame.jpg);
+    background-repeat: no-repeat;
+    background-position: 401px;
+    background-size: 429px;
+    text-align: justify;
+}
+
+    #semantic h1 {
+        text-align: center;
+        padding-bottom: 43px;
+        padding-left: 432px;
+        padding-top: 204px;
+        padding-right: 50px;
+    }
+
+    #semantic p {
+        text-align: justify;
+        padding-bottom: 192px;
+        padding-left: 462px;
+        padding-right: 140px;
+        margin-right: -67px;
+    }
+
+/*חלק ג' - תרגיל 2 - האתר של דני*/
+#myWebSite {
+    border: dashed #a021c3 5px;
+    border-radius: 124px;
+    width: 799px;
+    height: 200px;
+}
+
+
+    #myWebSite h1 {
+        font-size: 18pt;
+        text-align: center;
+    }
+
+    #myWebSite h2 {
+        font-size: 16pt;
+        text-align: center;
+    }
+
+    #myWebSite h3 {
+        font-size: 16pt;
+        text-align: right;
+        padding-right: 15px;
+    }
+
+#profile {
+    padding-right: 80px;
+    color: #0804ed;
+    font-size: 16pt;
+}
+
+#heartimg {
+    text-align: center;
+    color: #0804ed;
+    font-size: 16pt;
+}
+
+#academy {
+    padding-right: 380px;
+    color: #0804ed;
+    font-size: 16pt;
+}
+
+/*חלק ד' - תפריטי ניווט*/
+
+
+
+/*חלק ד' - תרגיל 1 - אתר חדשות*/
+#navnew ul li {
+    display: inline-block;
+    float: right;
+    background-color: #000000;
+    color: white;
+    vertical-align: baseline;
+}
+
+
+#navnew2 ul li {
+    display: inline-block;
+    float: right;
+}
+
+#nav2 ul li::after {
+    content: ">";
+}
+
+#nav2 ul li:last-child {
+    content: "";
+}
+/*חלק ד' - תרגיל 2 - hit*/
+#hit nav ul li {
+    display: inline-block;
+    float: right;
+    background-color: #000000;
+    color: white;
+    vertical-align: baseline;
+}
+
+/*חלק ה' - טבלאות*/
+
+
+/*חלק ה' - תרגיל 1 - ערבוב צבעים*/
+#mixingColors {
+    margin-top: 40PX;
+}
+
+table, th, td {
+    border: 1px solid black;
+    width: 60px;
+}
+
+#td1 {
+    background-color: red;
+}
+
+#td2 {
+    background-color: yellow;
+}
+
+#td3 {
+    background-color: blue;
+}
+/*חלק ה' - תרגיל 2 - בישול ירקות*/
+#cookingVegetables {
+    margin-top: 20px;
+    width: 300px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    width: 400px;
+    height: 50px;
+    padding: 15px;
+}
+
+#shlif {
+    background-color: orange;
+}
+
+#micro {
+    background-color: #0d640d;
+    color: white;
+}
+
+#boil {
+    background-color: #0d640d;
+    color: white;
+}
+
+#tanoor {
+    background-color: #0d640d;
+    color: white;
+}
+/*חלק ה' - תרגיל 3 - ארוחות העשר של דני*/
+#dani table th td {
+    margin-top: 20px;
+    width: 300px;
+    border: solid 3px black;
+    border-radius: 200px;
+}
+#sun{
+    background-color:#6e8e9d;
+}
+#veg{
+    background-color:#6e8e9d;
+}
+}
+#fruit{
+    background-color:#6e8e9d;
+}
+}
+#pinuk{
+background-color:#6e8e9d;
+}
+
+
+/*חלק ו' - טפסים*/
+/*חלק ו'-תרגיל 1 HT5C3 */
