@@ -1,0 +1,305 @@
+﻿body {
+    direction: rtl;
+    font-family: 'Varela Round';
+}
+#footer{
+    margin:50px 50px 50px 50px;
+    font-size:20px;
+}
+
+#sunday{
+    margin:50px 50px 50px 50px;
+}
+#sunday2{
+    margin:50px 50px 50px 50px;
+}
+#container1 {
+    font-family: 'Varela Round';
+    width: 960px;
+    background-image: url('../images/design-1745096.jpg');
+    background-size: 2000px;
+}
+
+#container2 {
+    background-image: url('../images/man-2099114.png');
+    background-color:#2086f2;
+    background-position:91px;
+    background-repeat:repeat-y;
+    background-size:235px;
+    font-family: 'Varela Round';
+    width: 960px;
+    height: 1264px;
+}
+
+#container3 {
+    font-family: 'Varela Round';
+    width: 960px;
+    height:2269px;
+    background-image: url('../images/color-2174043.png');
+    background-repeat:no-repeat;
+    background-size:3433px;
+}
+
+#container4 {
+    font-family: 'Varela Round';
+    width: 960px;
+    height:1558px;
+    
+
+    background-image: url('../images/abstract-1872059.jpg');
+}
+
+#container5 {
+    font-family: 'Varela Round';
+    width: 960px;
+}
+
+#koteret {
+    width: 960px;
+    background-size: 200px;
+}
+
+#gili_pic {
+    opacity: 1.1;
+    padding-right: 239px;
+    width: 502px;
+    height: 418px;
+}
+
+#runnin {
+    margin: 0 auto;
+}
+
+#gili_katuv {
+    font-size: 15pt;
+    font-family: 'Varela Round';
+     padding:50px 50px 50px 50px;
+}
+
+#tik_katuv {
+    background-color: #3097D2;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    border: #807878 solid 1px;
+    border-radius: 5px;
+    text-align: right;
+    margin: 0 auto;
+    width: 691px;
+    height: 454px;
+    font-family: 'Varela Round';
+    font-size: 20pt;
+     padding:50px 50px 50px 50px;
+}
+
+
+
+#tomer_katuv {
+    background-color: #3097D2;
+    opacity: 1.6;
+    filter: alpha(opacity=60);
+    border: #807878 solid 1px;
+    border-radius: 5px;
+    text-align: right;
+    margin: 0 auto;
+    width: 635px;
+    height: 184px;
+    color:white;
+    font-size: 15pt;
+    font-family: 'Varela Round';
+     padding:50px 50px 50px 50px;
+}
+
+#welcome {
+    font-size:20pt;
+     padding:50px 50px 50px 50px;
+}
+
+#gili {
+    background-color: #3097D2;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    border: #807878 solid 1px;
+    border-radius: 5px;
+    text-align: justify;
+    margin: 0 auto;
+    width: 635px;
+    height: 690px;
+    font-family: Calibri;
+    font-size: 15pt;
+    font-family: 'Varela Round';
+    padding:50px 50px 50px 50px;
+}
+
+#aven {
+    background-color: #3097D2;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    border: #807878 solid 1px;
+    border-radius: 5px;
+    text-align: right;
+    margin: 0 auto;
+    width: 635px;
+    height: 705px;
+    font-size: 15pt;
+    font-family: 'Varela Round';
+     padding:50px 50px 50px 50px;
+}
+
+#nav1 ul {
+    list-style: none;
+    width: 600px;
+    margin: 0 auto;
+    height: 120px;
+}
+
+    #nav1 ul li {
+        display: inline-block;
+        float: right;
+        width: 120px;
+    }
+
+
+        #nav1 ul li a {
+            display: block;
+            background-color: #868686;
+            opacity: 60;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            width: 120px;
+            height: 30px;
+            Padding-top: 10px;
+            font-family: 'Varela Round';
+            border: solid 2px #868686;
+            border-radius: 10px;
+        }
+
+
+
+            #nav1 ul li a:hover {
+                background-color: #3097D2;
+            }
+
+            #nav1 ul li a:active {
+                background-color: green;
+            }
+
+#nav2 ul {
+    list-style: none;
+    width: 600px;
+    margin: 0 auto;
+    height: 120px;
+}
+
+    #nav2 ul li {
+        display: inline-block;
+        float: right;
+        width: 120px;
+    }
+
+   
+
+        #nav2 ul li a {
+            display: block;
+            background-color: #868686;
+            opacity: 60;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            width: 120px;
+            height: 30px;
+            Padding-top: 10px;
+            font-family: 'Varela Round';
+            border: solid 2px #868686;
+            border-radius: 10px;
+        }
+
+
+
+            #nav2 ul li a:hover {
+                background-color: #3097D2;
+            }
+
+            #nav2 ul li a:active {
+                background-color: green;
+            }
+
+#nav3 ul {
+    list-style: none;
+    width: 600px;
+    margin: 0 auto;
+    height: 120px;
+}
+
+    #nav3 ul li {
+        display: inline-block;
+        float: right;
+        width: 120px;
+    }
+
+
+        #nav3 ul li a {
+            display: block;
+            background-color: #868686;
+            opacity: 60;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            width: 120px;
+            height: 30px;
+            Padding-top: 10px;
+            font-family: 'Varela Round';
+            border: solid 2px #868686;
+            border-radius: 10px;
+        }
+
+
+
+            #nav3 ul li a:hover {
+                background-color: #3097D2;
+            }
+
+            #nav3 ul li a:active {
+                background-color: green;
+            }
+
+#nav4 ul {
+    list-style: none;
+    width: 600px;
+    margin: 0 auto;
+    height: 120px;
+}
+
+    #nav4 ul li {
+        display: inline-block;
+        float: right;
+        width: 120px;
+    }
+
+
+        #nav4 ul li a {
+            display: block;
+            background-color: #868686;
+            opacity: 60;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            width: 120px;
+            height: 30px;
+            Padding-top: 10px;
+            font-family: 'Varela Round';
+            border: solid 2px #868686;
+            border-radius: 10px;
+        }
+
+
+
+            #nav4 ul li a:hover {
+                background-color: #3097D2;
+            }
+
+            #nav4 ul li a:active {
+                background-color: green;
+            }
+
+
