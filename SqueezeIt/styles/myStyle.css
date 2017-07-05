@@ -1,0 +1,1055 @@
+body 
+{
+    direction:rtl;
+   
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    
+  
+}
+
+/*.skip {
+    font-size: 20pt;
+    height: 1px;
+    left: 0;
+    position:absolute;
+    top: -1000px;
+    width: 1px;
+    color: blue;
+}*/
+
+		a.skip {
+	font-size: 1.4em;
+	height: 1px;
+	left: 0;
+	position: absolute;
+	top: -1000px;
+	width: 1px;
+	color: #fff;
+}
+
+		a.skip:focus, a.skip:active {
+	background: #3765fb;
+	direction: rtl;
+	font-weight: bold;
+	height: auto;
+	padding: 0 5px;
+	position: absolute;
+	right: 800px;
+	text-align: center;
+	top: 10px;
+	width: 295px;
+	z-index: 1000;
+	color: #000 !important;
+	outline: none;
+
+}
+
+		a.skip:focus span, a.skip:active span {
+	direction: ltr;
+}
+
+
+#backgroundImage {
+    background-image: url('../images/pink_rice.png');
+
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 960px;
+    background-size: 960px;
+    z-index: -1;
+    position: absolute;
+}
+header 
+{
+    border: solid #7B2137 1px;
+    width: 960px;
+    height: 200px;
+    background-color: #7B2137;
+    border-radius: 30px;
+
+}
+
+header h1{
+
+    
+    font-size: 56pt;
+    text-align: center;
+    margin-top: 25px;
+    font-weight:normal;
+}
+
+header #logo{
+
+    
+    font-size: 56pt;
+    text-align: center;
+    margin-top: 25px;
+}
+
+header #logo a{
+   font-family: 'Lobster';
+   color: #88AA00;
+  text-decoration: none;
+}
+
+header h1 a{
+   font-family: 'Lobster';
+   color: #88AA00;
+  text-decoration: none;
+}
+
+#iconRight {
+    background-image: url(../images/icon.png);
+    /* display: inline-block; */
+    width: 80px;
+    height: 100px;
+    background-size: 90px;
+    background-repeat: no-repeat;
+    margin-top: -150px;
+    padding-left: 176px;
+}
+
+#iconRightInner {
+    background-image: url(../images/icon.png);
+    /* display: inline-block; */
+    width: 80px;
+    height: 100px;
+    background-size: 90px;
+    background-repeat: no-repeat;
+    margin-top: -100px;
+    padding-left: 176px;
+}
+
+
+#iconLeft {
+    background-image: url(../images/icon.png);
+    /* display: inline-block; */
+    width: 80px;
+    height: 100px;
+    background-size: 90px;
+    background-repeat: no-repeat;
+    margin-top: -100px;
+    padding-left: 720px;
+}
+
+.noClick{
+
+    cursor: not-allowed;
+    /*pointer-events: none;*/
+   
+}
+
+ #nav1{
+     
+    padding-top: 24px;
+    margin-right: -41px;
+ }
+ #nav1 ul {
+    list-style: none;
+    width: 900px; 
+    height: 40px;
+}
+
+#nav1 ul li {
+        display: inline-block;
+      /*  float: right;*/
+    }
+
+         #nav1 ul li a {
+                display: block;
+    background-color: #88AA00;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    width: 128px;
+    height: 32px;
+    Padding-top: 10px;
+    font-size: 14pt;
+    border-radius: 20px;
+    font-family: 'Varela Round';
+        }
+
+
+
+            #nav1 ul li a:hover {
+                background-color: #DDAB02;
+                
+            }
+
+            #nav1 ul li a:active {
+                background-color: green;
+            }
+
+
+         #nav1 ul li ul {
+            display: none;
+            position: absolute;
+        }
+
+         #nav1 ul li:hover  > ul {
+            display: block;
+            width: 128px;
+            margin-right:-40px;
+        }
+
+          #nav1 ul li ul li ul {
+            display: none;
+            position: absolute;
+        }
+
+           #nav1 ul li ul li:hover ul {
+            display: block;
+            width: 128px;
+            margin-right:88px;
+            margin-top:-40px;
+        }
+
+#content{
+
+    margin-top:100px;
+}
+
+    #content #sportJuice {
+        background-image: url('../images/homePagePics.gif');
+        background-position: right bottom;
+        background-size: 430px;
+        width: 217px;
+        height: 212px;
+        background-repeat: no-repeat;
+        float: right;
+        display: inline-block;
+        margin-right: 50px;
+    }
+
+       #content #forMe {
+    background-image: url('../images/homePagePics.gif');
+    background-position: right top;
+    background-size: 430px;
+    width: 216px;
+    height: 216px;
+    background-repeat: no-repeat;
+    float: initial;
+    display: inline-block;
+    margin-right: 100px;
+    }
+
+
+    #content #summerServing {
+    background-image: url('../images/homePagePics.gif');
+    background-position: left top;
+    background-size: 430px;
+    width: 214px;
+    height: 218px;
+    background-repeat: no-repeat;
+    float: left;
+    display: inline-block;
+    margin-left:50px;
+    cursor: not-allowed;
+    }
+    #contentTags{
+        font-family: 'Varela Round';
+        margin-top:10px;
+        
+    }
+
+    #contentTags #sportJuiceLink{
+        display: inline-block;
+        text-decoration: none;
+        color:black;
+        padding-right: 90px;
+        font-size: 14pt;
+    }
+     #contentTags #forMeLink{
+        display: inline-block;
+        text-decoration: none;
+        color:black;
+        padding-right: 185px;
+        font-size: 14pt;
+    }
+      #contentTags #summerServingLink{
+        display: inline-block;
+        text-decoration: none;
+        color:black;
+        padding-right: 160px;
+        font-size: 14pt;
+        cursor: not-allowed;
+    }
+
+      #weekTip{
+          margin: 0 auto;
+          margin-top:100px;
+          
+          border:solid #88AA00 1px;
+          color:white;
+          background:#88AA00;
+          font-family: 'Varela Round';
+          border-radius:20px;
+          width:500px;
+          height:200px;
+
+      }
+
+#weekTipPic {
+    background-image: url('../images/homePagePics.gif');
+    float: right;
+    background-position: left bottom;
+    background-size: 300px;
+    width: 150px;
+    height: 148px;
+    background-repeat: no-repeat;
+    /* display: inline-block; */
+    margin-top: -20px;
+
+}
+
+#weekTip h2{
+
+    padding-right: 16px;
+    font-size: 16pt;
+}
+
+#weekTip p{
+
+    padding-top: 12px;
+    font-size: 13pt;
+    padding-right: 164px;
+    padding-left: 100px;
+}
+
+#exMark {
+    background-image: url(../images/ex-mark.gif);
+    float: left;
+    background-size: 150px;
+    width: 90px;
+    height: 128px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: -128px;
+    margin-right: 260px;
+    
+}
+
+#breadCrumbs ul{
+        
+        margin-top: 20px;
+        display: inline-block;
+        float:right;
+        font-family: 'Varela Round';
+        
+    }
+         #breadCrumbs ul li {
+        display: inline-block;
+        float:right;
+        color:black;
+    }
+        
+         #breadCrumbs ul li:after{
+
+            content: ">";
+        }
+          #breadCrumbs ul li:last-child:after{
+
+            content: ""
+        }
+
+             #breadCrumbs ul li a {
+                display: inline-block;
+                float: right;
+                color: black;
+            }
+
+footer{
+     margin-top: 121px;
+    background-color: #F6801E;
+    width: 960px;
+    height: 100px;
+    margin-right: 1px;
+    font-family: 'Varela Round';
+    color: black;
+
+      }
+footer ul{
+    margin-right:250px;
+}
+
+footer ul li{
+    display: inline-block;
+
+}
+
+footer ul li a{
+    display: block;
+    color: black;
+ /*   text-decoration: none;*/
+    Padding-top: 10px;
+    font-size: 14pt;
+    padding-right: 50px;
+    padding-top: 20px;
+    
+}
+
+footer p{
+
+    padding-right: 360px;
+    padding-top: 15px;
+}
+
+#aboutP{
+
+    margin-top: 100px;
+    padding-right: 35px;
+    padding-left: 60px;
+    font-size: 12pt;
+    font-family: 'Varela Round';
+}
+
+#aboutP h1{
+
+    font-size:14pt;
+    margin-top: -30px;
+}
+
+#aboutP p{
+ font-size:12pt;
+
+}
+#aboutAside #hitLogo {
+    background-image: url('../images/HITLogo3.png');
+    background-size: 200px;
+    width: 200px;
+    height: 135px;
+    background-repeat:no-repeat;
+    margin: auto;
+}
+
+#aboutAside a{
+
+    font-size: 22px;
+    margin-right: 376px;
+
+}
+
+#footerAbout{
+    margin-top: 50px;
+    background-color: #F6801E;
+    width: 960px;
+    height: 100px;
+    margin-right: 1px;
+    font-family: 'Varela Round';
+    color: black;
+}
+
+#contact{
+
+    margin-top: 70px;
+    padding-right: 35px;
+    padding-left: 60px;   
+    font-family: 'Varela Round';
+}
+
+#contact h1{
+    font-size:14pt;
+}
+
+#footerContactUs{
+    margin-top: 120px;
+    background-color: #F6801E;
+    width: 960px;
+    height: 100px;
+    margin-right: 1px;
+    font-family: 'Varela Round';
+    color: black;
+}
+
+ label{
+     display:block;
+     margin-top:10px;
+     font-size:12pt;
+}
+
+#contact input[type ='text'] ,textarea{
+    display:block;
+    margin-bottom:15px;
+}
+
+#contact input[type ='submit']
+{
+margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#contact textarea{
+
+    width:240px;
+    height:60px;
+    font-size:12pt;
+    font-family: 'Varela Round';
+}
+
+#contact input[type ='text']{
+
+    width:240px;
+    font-size:12pt;
+    height:20px;
+    font-family: 'Varela Round';
+
+}
+
+#backgroundImageContactUs{
+    background-image: url('../images/pink_rice.png');
+
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 725px;
+    background-size: 960px;
+    z-index: -1;
+    position: absolute;
+}
+
+/*Sport recipes*/
+
+#sportRec{
+     margin-top: 100px;
+    padding-right: 35px;
+    padding-left: 60px;
+    font-family: 'Varela Round';
+}
+
+#sportRec h1{
+    font-size: 20pt;
+    text-align: center;
+}
+
+#sportRec p{
+    font-size: 12pt;
+}
+
+#sportRec #beetJuice{
+    margin: auto;
+    margin-top: 35px;
+    padding-right: 20px;
+    padding-top: 10px;
+    background-color: #A7E134;
+    height: 360px;
+    width: 600px;
+    border-radius: 35px;
+}
+
+#sportRec #beetJuice aside{
+
+    text-align:center;
+}
+
+#sportRec #beetJuice h2{
+    font-size: 16pt;
+}
+    #sportRec #beetJuice #beetJuiceImg {
+            background-image: url(../images/sportPagePics.gif);
+    background-position: 201px;
+    background-size: 600px;
+    width: 201px;
+    height: 200px;
+    float: left;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 30px;
+   
+    }
+
+    #sportRec #cherryJuice{
+    margin: auto;
+    margin-top: 35px;
+    padding-right: 20px;
+    padding-top: 10px;
+    background-color: #A7E134;
+    height: 360px;
+    width: 600px;
+    border-radius: 35px;
+}
+
+    #sportRec #cherryJuice aside{
+
+    text-align:center;
+}
+
+#sportRec #cherryJuice h2{
+    font-size: 16pt;
+}
+        #sportRec #cherryJuice #cherryJuiceImg {
+           background-image: url(../images/sportPagePics.gif);
+    background-position: 530px;
+    background-size: 862px;
+    width: 196px;
+    height: 274px;
+    float: left;
+    display: inline-block;
+    margin-top: -86px;
+    margin-left: 25px;
+        }
+
+    #sportRec #broccoliJuice{
+    margin: auto;
+    margin-top: 35px;
+    padding-right: 20px;
+    padding-top: 10px;
+    background-color: #A7E134;
+    height: 340px;
+    width: 600px;
+    border-radius: 35px;
+}
+
+   #sportRec #broccoliJuice aside{
+
+    text-align:center;
+}
+
+
+#sportRec #broccoliJuice h2{
+    font-size: 16pt;
+}
+        #sportRec #broccoliJuice #broccoliJuiceImg {
+       background-image: url(../images/sportPagePics.gif);
+    background-position: 0px;
+    background-size: 700px;
+    width: 229px;
+    height: 234px;
+    float: left;
+    display: inline-block;
+    margin-top: -60px;
+    margin-left: 25px;
+    background-repeat: no-repeat;
+            
+        }
+
+#backgroundImageSportJuice{
+    background-image: url('../images/pink_rice.png');
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 1800px;
+    background-size: 1800px;
+    z-index: -1;
+    position: absolute;
+        }
+
+ #sportJuiceTip{
+          margin: 0 auto;
+    margin-top: 80px;
+    border: solid #88AA00 1px;
+    color: white;
+    background: #88AA00;
+    font-family: 'Varela Round';
+    border-radius: 20px;
+    width: 410px;
+    height: 110px;
+    font-size: 14pt;
+    padding-right: 20px;
+      }
+
+ 
+/*Weight loss recipes*/
+#weightLossRec{
+     margin-top: 100px;
+    padding-right: 35px;
+    padding-left: 60px;
+    font-family: 'Varela Round';
+}
+
+#weightLossRec h1{
+    font-size: 20pt;
+    text-align: center;
+}
+
+#weightLossRec p{
+    font-size: 12pt;
+}
+
+#weightLossRec #beetAndMoreJuice{
+    margin: auto;
+    margin-top: 35px;
+    padding-right: 20px;
+    padding-top: 10px;
+    background-color: #A7E134;
+    height: 420px;
+    width: 600px;
+    border-radius: 35px;
+}
+
+#weightLossRec #beetAndMoreJuice h2{
+    font-size: 16pt;
+}
+    #weightLossRec #beetAndMoreJuice #beetAndMoreImg {
+    background-image: url(../images/weightLossPics.gif);
+    background-position: -521px;
+    background-size: 732px;
+    width: 213px;
+    height: 305px;
+    float: left;
+    display: inline-block;
+    margin-top: -97px;
+    margin-left: 25px;
+    background-repeat: no-repeat;
+    }
+
+   #weightLossRec #beetAndMoreJuice aside{
+
+    text-align:center;
+}
+
+    #weightLossRec #greenJuice{
+    margin: auto;
+    margin-top: 35px;
+    padding-right: 20px;
+    padding-top: 10px;
+    background-color: #A7E134;
+    height: 420px;
+    width: 600px;
+    border-radius: 35px;
+}
+
+           #weightLossRec #greenJuice aside{
+
+    text-align:center;
+}
+
+#weightLossRec #greenJuice h2{
+    font-size: 16pt;
+}
+        #weightLossRec #greenJuice #greenJuiceImg {
+        background-image: url(../images/weightLossPics.gif);
+    background-position: -303px;
+    background-size: 700px;
+    width: 193px;
+    height: 227px;
+    float: left;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 25px;
+    background-repeat: no-repeat;
+
+          
+        }
+
+    #weightLossRec #appleJuice{
+    margin: auto;
+    margin-top: 35px;
+    padding-right: 20px;
+    padding-top: 10px;
+    background-color: #A7E134;
+    height: 400px;
+    width: 600px;
+    border-radius: 35px;
+}
+
+    #weightLossRec #appleJuice aside{
+
+    text-align:center;
+}
+
+#weightLossRec #appleJuice h2{
+    font-size: 16pt;
+}
+        #weightLossRec #appleJuice #appleJuiceImg {
+               background-image: url(../images/weightLossPics.gif);
+    background-position: -9px;
+    background-size: 610px;
+    width: 254px;
+    height: 292px;
+    float: left;
+    display: inline-block;
+    margin-top: -100px;
+    margin-left: 25px;
+    background-repeat: no-repeat;
+            
+        }
+
+#backgroundImageWeightLossJuice{
+    background-image: url('../images/pink_rice.png');
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 2000px;
+    background-size: 2000px;
+    z-index: -1;
+    position: absolute;
+        }
+
+ #weightLossJuiceTip{
+          margin: 0 auto;
+    margin-top: 80px;
+    border: solid #88AA00 1px;
+    color: white;
+    background: #88AA00;
+    font-family: 'Varela Round';
+    border-radius: 20px;
+    width: 410px;
+    height: 140px;
+    font-size: 14pt;
+    padding-right: 20px;
+      }
+ /*Summer fruit*/
+ #summerFruit{
+     margin-top: 100px;
+    padding-right: 35px;
+    padding-left: 60px;
+    font-family: 'Varela Round';
+}
+
+#summerFruit h1{
+    font-size: 20pt;
+    text-align: center;
+}
+
+#summerFruit p{
+    font-size: 12pt;
+}
+
+#summerFruit #watermelon{
+    margin: auto;
+    margin-top: 35px;
+    padding-right: 20px;
+    padding-top: 10px;
+    background-color: #A7E134;
+    height: 300px;
+    width: 700px;
+    border-radius: 35px;
+}
+
+    #summerFruit #watermelon aside p{
+
+    text-align: center;
+    padding-top: 15px;
+}
+
+#summerFruit #watermelon h2{
+    font-size: 16pt;
+    width:100px;
+    height:20px;
+}
+
+#summerFruit  th{
+
+    font-size:14pt;
+    background-color:#b22849;
+    width:100px;
+    height:20px;
+    color: white;
+}
+
+#summerFruit  tr{
+
+    font-size:12pt;
+    background-color:#f8d763;
+    width:100px;
+    height:20px;
+}
+
+
+    #summerFruit #watermelon #watermelonImg {
+    background-image: url(../images/summerFruitPicsNew.gif);
+    background-position: -531px;
+    background-size: 800px;
+    width: 270px;
+    height: 161px;
+    float: left;
+    display: inline-block;
+    margin-top: 1px;
+    margin-left: 50px;
+    background-repeat: no-repeat;
+    }
+
+    #summerFruit #cherry{
+    margin: auto;
+    margin-top: 35px;
+    padding-right: 20px;
+    padding-top: 10px;
+    background-color: #A7E134;
+    height: 275px;
+    width: 700px;
+    border-radius: 35px;
+}
+
+        #summerFruit #cherry aside p{
+       text-align: center;
+    padding-top: 55px;
+    
+}
+
+#summerFruit #cherry h2{
+    font-size: 16pt;
+}
+        #summerFruit #cherry #cherryImg {
+    background-image: url(../images/summerFruitPicsNew.gif);
+    background-position: -234px;
+    background-size: 700px;
+    width: 231px;
+    height: 141px;
+    float: left;
+    display: inline-block;
+    margin-top: 1px;
+    margin-left: 75px;
+    background-repeat: no-repeat;
+        }
+
+    #summerFruit #grape{
+    margin: auto;
+    margin-top: 35px;
+    padding-right: 20px;
+    padding-top: 10px;
+    background-color: #A7E134;
+    height: 280px;
+    width: 700px;
+    border-radius: 35px;
+}
+
+ #summerFruit #grape aside p{
+        text-align: center;
+        padding-top: 15px;
+}
+
+
+#summerFruit #grape h2{
+    font-size: 16pt;
+}
+        #summerFruit #grape #grpaeImg {
+    background-image: url(../images/summerFruitPicsNew.gif);
+    background-position: 0px;
+    background-size: 700px;
+    width: 234px;
+    height: 141px;
+    float: left;
+    display: inline-block;
+    margin-top: 1px;
+    margin-left: 80px;
+    background-repeat: no-repeat;
+        }
+
+#backgroundSummerFruit{
+    background-image: url('../images/pink_rice.png');
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 1600px;
+    background-size: 1600px;
+    z-index: -1;
+    position: absolute;
+        }
+
+ #summerFruitTip{
+          margin: 0 auto;
+    margin-top: 80px;
+    border: solid #88AA00 1px;
+    color: white;
+    background: #88AA00;
+    font-family: 'Varela Round';
+    border-radius: 20px;
+    width: 410px;
+    height: 120px;
+    font-size: 14pt;
+    padding-right: 20px;
+      }
+ /*Site map*/
+ #footerSiteMap{
+     margin:auto;
+    margin-top: 400px;
+    background-color: #F6801E;
+    width: 960px;
+    height: 100px;
+    margin-right: 1px;
+    font-family: 'Varela Round';
+    color: black;
+}
+
+#siteMap{
+
+         margin-top: 100px;
+    padding-right: 35px;
+    padding-left: 60px;
+    font-family: 'Varela Round';
+}
+
+ #navSiteMap ul {
+    list-style: none;
+    width: 900px; 
+    height: 40px;
+}
+
+#navSiteMap ul li {
+        display: inline-block;
+      /*  float: right;*/
+    }
+
+         #navSiteMap ul li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    width: 110px;
+    height: 35px;
+    Padding-top: -1px;
+    font-size: 12pt;
+    font-family: 'Varela Round';
+        }
+
+
+         #navSiteMap ul li ul {
+            
+            position: static;
+        }
+
+        /* #navSiteMap ul li:hover  > ul {
+            display: block;
+            width: 128px;
+            margin-right:-40px;
+        }*/
+
+          #navSiteMap ul li ul li ul {
+            
+            position: static;
+        }
+
+         /*  #navSiteMap ul li ul li:hover ul {
+            display: block;
+            width: 128px;
+            margin-right:88px;
+            margin-top:-40px;
+        }*/
+
+         #backgroundSiteMap{
+    background-image: url('../images/pink_rice.png');
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 700px;
+    background-size: 960px;
+    z-index: -1;
+    position: absolute;
+        }
+
+         #footerInteractive{
+    margin-top: 500px;
+    background-color: #F6801E;
+    width: 960px;
+    height: 100px;
+    margin-right: 1px;
+    font-family: 'Varela Round';
+    color: black;
+}
+
+         #backgroundInteractive{
+        background-color:white;
+         }
+         /*interactive*/
+         #animation_container
+         {
+             position:relative;
+left:260px;
+-moz-transform: scale(0.65);
+-webkit-transform: scale(0.65);
+-o-transform: scale(0.65);
+-ms-transform: scale(0.65);
+transform: scale(0.65);
+bottom:200px;
+ z-index: -1;
+         }
